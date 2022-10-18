@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -10,9 +10,9 @@
 	<body>
 		<header>
 			<div class="logo-nav">
-				<a href="#" tabindex="0" class="main-logo"
-					><span>Web</span>Studio</a
-				>
+				<a href="#" tabindex="0" class="main-logo">
+					<span>Web</span>Studio
+				</a>
 				<nav>
 					<ul>
 						<li><a class="focused" href="">Студія</a></li>
@@ -21,12 +21,14 @@
 					</ul>
 				</nav>
 			</div>
-			<div class="email-tel">
-				<a class="email" href="mailto:info@devstudio.com"
-					>info@devstudio.com</a
-				>
-				<a class="tel" href="tel:+380961111111">+38 096 111 11 11</a>
-			</div>
+			<ul class="email-tel">
+				<li>
+					<a class="email" href="mailto:info@devstudio.com">info@devstudio.com</a>
+				</li>
+				<li>
+					<a class="tel" href="tel:+380961111111">+38 096 111 11 11</a>
+				</li>
+			</ul>
 		</header>
 		<main>
 			<section class="promo">
@@ -34,6 +36,7 @@
 				<button type="button">Замовити послугу</button>
 			</section>
 			<section class="description">
+				<h2 style='display: none'>Особливості нашої роботи</h2>
 				<ul>
 					<li>
 						<h4>УВАГА ДО ДЕТАЛЕЙ</h4>
@@ -68,59 +71,54 @@
 			<section class="tasks">
 				<h2>Чим ми займаємося</h2>
 				<ul>
-					<li><img src="images/tasks/proj_1.jpg" alt="Проект №1" /></li>
-					<li><img src="images/tasks/proj_2.jpg" alt="Проект №2" /></li>
-					<li><img src="images/tasks/proj_3.jpg" alt="Проект №3" /></li>
+					<li><img src="images/projects/proj_1.jpg" alt="Проект №1" style='width: 370px; height: 294px'/></li>
+					<li><img src="images/projects/proj_2.jpg" alt="Проект №2" style='width: 370px; height: 294px'/></li>
+					<li><img src="images/projects/proj_3.jpg" alt="Проект №3" style='width: 370px; height: 294px'/></li>
 				</ul>
 			</section>
 			<section class="team">
 				<h2>Наша команда</h2>
 				<ul>
 					<li>
-						<figure>
-							<img src="images/team/prod_design.jpg" alt="Дизайнер" />
-							<figcaption>
-								Ігор Дем'яненко<span>Product Designer</span>
-							</figcaption>
-						</figure>
+						<img src="images/team/prod_design.jpg" alt="Дизайнер" style='width: 270px; height: 260px'/>
+						<h3>Ігор Дем'яненко</h3>
+						<p>Product Designer</p>
 					</li>
 					<li>
-						<figure>
-							<img src="images/team/front_dev.jpg" alt="Розробник" />
-							<figcaption>
-								Ольга Рєпіна<span>Frontend Developer</span>
-							</figcaption>
-						</figure>
+						<img src="images/team/front_dev.jpg" alt="Розробник" style='width: 270px; height: 260px'/>
+						<h3>Ольга Рєпіна</h3>
+						<p>Frontend Developer</p>
 					</li>
 					<li>
-						<figure>
-							<img src="images/team/marketing.jpg" alt="Маркетолог" />
-							<figcaption>
-								Микола Тарасов<span>Marketing</span>
-							</figcaption>
-						</figure>
+						<img src="images/team/marketing.jpg" alt="Маркетолог" style='width: 270px; height: 260px'/>
+						<h3>Микола Тарасов</h3>
+						<p>Marketing</p>
 					</li>
 					<li>
-						<figure>
-							<img src="images/team/ui_design.jpg" alt="Дизайнер" />
-							<figcaption>
-								Михайло Єрмаков<span>UI Designer</span>
-							</figcaption>
-						</figure>
+						<img src="images/team/ui_design.jpg" alt="Дизайнер" style='width: 270px; height: 260px'/>
+						<h3>Михайло Єрмаков</h3>
+						<p>UI Designer</p>
 					</li>
 				</ul>
 			</section>
 		</main>
 		<footer id="contants">
+			<a href="#" tabindex="0" class="main-logo"><span>Web</span>Studio</a>
 			<address>
-				<a href="#" tabindex="0" class="main-logo"
-					><span>Web</span>Studio</a
-				>
 				<p tabindex="0">м. Київ, пр-т Лесі Українки, 26</p>
-				<a class="email footer__email" href="mailto:info@devstudio.com"
-					>info@devstudio.com</a
-				>
-				<a class="tel" href="tel:+380961111111">+38 096 111 11 11</a>
+				<ul>
+					<li>
+						<a class="email footer__email"
+							href="mailto:info@devstudio.com">
+							info@devstudio.com
+						</a>
+					</li>
+					<li>
+						<a class="tel" href="tel:+380961111111">
+							+38 096 111 11 11
+						</a>
+					</li>
+				</ul>
 			</address>
 		</footer>
 	</body>
